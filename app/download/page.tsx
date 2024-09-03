@@ -47,7 +47,7 @@ const Layout = () => {
             by default.
           </p>
           <Link href="https://ftp2.osuosl.org/pub/tucana-linux/stable/iso/tucana-3.1-kde.iso">
-            <button className="px-10 font-montserrat font-bold rounded-xl p-6 my-4 text-left bg-cyan-500 text-gray-100">
+            <button className="hover:bg-white hover:text-cyan-400 hover:border-cyan-400 hover:border-spacing-2 transition-all font-montserrat font-bold rounded-xl p-6 px-10 my-4 text-left bg-cyan-500 text-gray-100">
               Download
             </button>
           </Link>
