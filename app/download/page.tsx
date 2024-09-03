@@ -5,37 +5,40 @@ import { CiCircleInfo } from "react-icons/ci";
 const Layout = () => {
   return (
     <>
-      <div className="text-center mt-32 mx-32 text-5xl font-montserrat">
+      <div className="text-center mt-32 mx-32 text-3xl md:text-5xl font-montserrat">
         Download Tucana 3.1
       </div>
-      <div className="flex items-center mx-40 my-10 rounded-2xl bg-red-50 h-32 flex-row p-10 text-gray-600">
+      <div className="flex items-center md:mx-40 my-10 rounded-2xl bg-red-50 md:h-32 flex-col md:flex-row p-10 text-gray-600">
         <CiCircleInfo size="90" />
         <div className="mx-4"></div>
-        Note: All Tucana installers will ask for a repository mirror you want to
-        clone from. You can either use the public mirrors detailed at the wiki
-        post{" "}
-        <a
-          className="text-blue-400"
-          href="https://github.com/rahulc07/Tucana/wiki/Installation#simple-install"
-        >
-          here
-        </a>{" "}
-        or host your with the instructions from another wiki article
-        <a
-          className="text-blue-400"
-          href="https://github.com/rahulc07/Tucana/wiki/Repo-Setup"
-        >
-          here
-        </a>
-        . In addition all Tucana ISOs, regardless of their user interface can be
-        used to install ANY desktop enviornment listed on this page and more,
-        the installer will give you an option to pick at install time.
+        <p>
+          Note: All Tucana installers will ask for a repository mirror you want
+          to use. You can either use the public mirrors detailed at the wiki
+          post
+          <a
+            className="text-blue-400"
+            href="https://github.com/rahulc07/Tucana/wiki/Installation#simple-install"
+          >
+            {" "}
+            here{" "}
+          </a>
+          or host your with the instructions from another wiki article{" "}
+          <a
+            className="text-blue-400"
+            href="https://github.com/rahulc07/Tucana/wiki/Repo-Setup"
+          >
+            here
+          </a>
+          . In addition all Tucana ISOs, regardless of their user interface can
+          be used to install ANY desktop enviornment listed on this page and
+          more, the installer will give you an option to pick at install time.
+        </p>
       </div>
       <h1 className="text-center mx-32 text-4xl font-montserrat mb-10 underline">
         Prebuilt ISOs
       </h1>
-      <div className="flex flex-row items-center">
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg w-1/3 mx-40 flex flex-col">
+      <div className="flex flex-col md:flex-row items-center">
+        <div className="my-10 items-center text-center rounded-s-lg bg-gray-100 shadow-lg md:w-1/3 md:mx-40 mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/kde.png" />
           <h1 className="font-bold font-suse text-xl my-2">KDE Plasma</h1>
           <p className="text-left p-6">
@@ -49,7 +52,7 @@ const Layout = () => {
             </button>
           </Link>
         </div>
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg w-1/3 mx-40 flex flex-col">
+        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-1/3 md:mx-40 mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/gnome.png" />
           <h1 className="font-bold font-suse text-xl my-2">GNOME</h1>
           <p className="text-left p-6">
@@ -71,8 +74,8 @@ const Layout = () => {
       <p className="text-center font-montserrat text-xl mb-10">
         Install these with one of the ISOs above
       </p>
-      <div className="flex flex-row items-center">
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg w-1/3 mx-40 flex flex-col">
+      <div className="flex flex-col md:flex-row items-center">
+        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-1/3 md:mx-40 mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/cinnamon.png" />
           <h1 className="font-bold font-suse text-xl my-2">Cinnamon</h1>
           <p className="text-left p-6">
@@ -90,7 +93,7 @@ const Layout = () => {
             other theme to make it look better.
           </p>
         </div>
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg w-1/3 mx-40 flex flex-col">
+        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-1/3 md:mx-40 mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/xfce.png" />
           <h1 className="font-bold font-suse text-xl my-2">XFCE</h1>
           <p className="text-left p-6">
@@ -102,7 +105,7 @@ const Layout = () => {
         </div>
       </div>
       <div className="h-20"></div>
-      <h1 className="text-center mx-32 text-4xl font-montserrat mb-2 underline">
+      <h1 className="text-center md:mx-32 text-2xl md:text-4xl font-montserrat mb-2 underline">
         Others not listed
       </h1>
       <p className="text-center font-montserrat text-xl mb-10">
@@ -111,11 +114,11 @@ const Layout = () => {
       <p className="text-center font-montserrat text-xl mb-10">
         i3<br></br> icewm<br></br> twm
       </p>
-      <h1 className="text-center mx-32 text-4xl font-montserrat mb-2 underline">
+      <h1 className="text-center md:mx-32 md:text-4xl text-2xl font-montserrat mb-2 underline">
         Don't see your favorite?
       </h1>
       <p className="text-center font-montserrat text-xl mb-10">
-        Request it by making an issue on the Tucana source{" "}
+        Request it by making an issue on the Tucana github{" "}
         <Link
           href="https://github.com/rahulc07/Tucana/issues"
           className="text-blue-500 underline"
