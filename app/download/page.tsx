@@ -38,7 +38,7 @@ const Layout = () => {
         Prebuilt ISOs
       </h1>
       <div className="flex flex-col md:flex-row items-center">
-        <div className="my-10 items-center text-center rounded-s-lg bg-gray-100 shadow-lg md:w-1/3 md:mx-40 mx-8 flex flex-col">
+        <div className="transition-all hover:bg-gray-50 hover:shadow-2xl hover:scale-110 my-10 items-center text-center rounded-s-lg bg-gray-100 shadow-lg md:w-auto md:ml-32 mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/kde.png" />
           <h1 className="font-bold font-suse text-xl my-2">KDE Plasma</h1>
           <p className="text-left p-6">
@@ -52,7 +52,7 @@ const Layout = () => {
             </button>
           </Link>
         </div>
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-1/3 md:mx-40 mx-8 flex flex-col">
+        <div className="transition-all hover:bg-gray-50 hover:shadow-2xl hover:scale-110 items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-auto md:mr-32 mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/gnome.png" />
           <h1 className="font-bold font-suse text-xl my-2">GNOME</h1>
           <p className="text-left p-6">
@@ -75,7 +75,7 @@ const Layout = () => {
         Install these with one of the ISOs above
       </p>
       <div className="flex flex-col md:flex-row items-center">
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-1/3 md:mx-40 mx-8 flex flex-col">
+        <div className="transition-all hover:bg-gray-50 hover:shadow-2xl hover:scale-110 my-10 items-center text-center rounded-s-lg bg-gray-100 shadow-lg md:w-1/3 md:mr-16 md:ml-auto mx-8 flex flex-col">
           <img className="rounded-xl mb-2" src="/images/cinnamon.png" />
           <h1 className="font-bold font-suse text-xl my-2">Cinnamon</h1>
           <p className="text-left p-6">
@@ -93,14 +93,15 @@ const Layout = () => {
             other theme to make it look better.
           </p>
         </div>
-        <div className="items-center text-center rounded-s-lg bg-gray-100 shadow-lg my-10 md:w-1/3 md:mx-40 mx-8 flex flex-col">
+        <div className="transition-all hover:bg-gray-50 hover:shadow-2xl hover:scale-110 my-10 items-center text-center rounded-s-lg bg-gray-100 shadow-lg md:w-1/3 flex md:ml-16 md:mr-auto flex-col">
           <img className="rounded-xl mb-2" src="/images/xfce.png" />
           <h1 className="font-bold font-suse text-xl my-2">XFCE</h1>
           <p className="text-left p-6">
             A super light weight desktop environment with a lot of customization
             options. Once again Tucana does not come with a theme for this one
             so we would recommend installing <i>papirus</i> and <i>nordic</i>{" "}
-            from mercury or some other theme to make it look better.
+            from mercury or some other theme to make it look better. XFCE comes
+            with the thunar file manager and minimal dependencies.
           </p>
         </div>
       </div>
