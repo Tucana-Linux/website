@@ -37,7 +37,7 @@ const Navbar = () => {
     <header className="fixed w-full top-0 z-50">
       <div className={navbar ? "navbar active" : "navbar"}>
         <div className={"md:text-sm lg:text-2xl font-bold mx-10 my-4"}>
-          Tucana Linux
+          <Link href="/">Tucana Linux</Link>
         </div>
         <div className="flex items-center justify-between px-4 py-3 md:px-8">
           <div className="hidden md:flex space-x-8 justify-end">
