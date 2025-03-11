@@ -46,7 +46,7 @@ const Layout = () => {
             Extremely customizable and user friendly, with a Windows like layout
             by default.
           </p>
-          <Link href="https://ftp2.osuosl.org/pub/tucana-linux/stable/iso/tucana-3.1-kde.iso">
+          <Link href="https://repo.tucanalinux.org/stable/iso/tucana-3.1-kde.iso">
             <button className="hover:bg-white hover:text-cyan-400 hover:border-cyan-400 hover:border-spacing-2 transition-all font-montserrat font-bold rounded-xl p-6 px-10 my-4 text-left bg-cyan-500 text-gray-100">
               Download
             </button>
@@ -60,7 +60,7 @@ const Layout = () => {
             interface built around Gtk and Libadwaita. Infinitely customizable
             with user-built extensions.
           </p>
-          <Link href="https://ftp2.osuosl.org/pub/tucana-linux/stable/iso/tucana-3.1-gnome.iso">
+          <Link href="https://repo.tucanalinux.org/stable/iso/tucana-3.1-gnome.iso">
             <button className="hover:bg-white hover:text-cyan-400 hover:border-cyan-400 hover:border-spacing-2 transition-all font-montserrat font-bold rounded-xl p-6 px-10 my-4 text-left bg-cyan-500 text-gray-100">
               Download
             </button>
